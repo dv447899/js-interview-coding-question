@@ -1,6 +1,7 @@
 var str1 = "peep"
 function palindrome(str) {
-    let newStr = str.split("");
+    let newStr = str.split(""); 
+    // ["p","e","e",'P']
     if (newStr.length % 2 === 0) {                     // checking the even or odd
         let new1 = newStr.splice(0, newStr.length / 2) // dividing into array1
         let new2 = newStr.splice(newStr.length / 2 - 1) // dividing into array2
